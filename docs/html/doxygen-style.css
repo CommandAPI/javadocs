@@ -47,6 +47,8 @@
     --qindex-menu-font-hover: #38224e;
     --qindex-icon-bg: #38224e;
     --qindex-icon-font: #cdd9e5;
+    --index-odd-item-bg-color: inherit;
+    --index-even-item-bg-color: inherit;
     /* Member table */
     --mem-title-bg: #430064;
     --mem-title-font: #ffffff;
@@ -56,9 +58,11 @@
     --mem-content-bg: #2d333b;
     --mem-content-font: #cdd9e5;
     --mem-content-border: #2d333b;
+    --memdef-param-name-color: var(--mem-subtitle-font);
     /* Nav Tree */
     --nav-tree-bg: #2d333b;
     --nav-tree-bg-hover: #5c008a;
+    --nav-background-color: var(--nav-tree-bg-hover);
     --nav-tree-font: #7D7D7D;
     --nav-tree-font-hover: #ffffff;
     --nav-tree-bg-selected: #38224e;
