@@ -18,6 +18,8 @@ git pull
 cd ..
 ```
 
+- If necessary, update the `PROJECT_NUMBER` tag in the `Doxyfile` to the appropriate CommandAPI version.
+
 - Run Doxygen via the terminal or graphical Doxywizard application. For the CLI, simply run `doxygen` in the root of this repository. For the GUI:
     - Go to `File > Open...` and open the `Doxyfile` in the root of this repository
     - Go to the `Run` tab (next to `Wizard` and `Expert`)
