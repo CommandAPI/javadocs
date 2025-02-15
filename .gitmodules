@@ -1,0 +1,6 @@
+[submodule "CommandAPI"]
+	path = CommandAPI
+	url = https://github.com/CommandAPI/CommandAPI
+[submodule "brigadier-with-javadocs"]
+	path = brigadier-with-javadocs
+	url = https://github.com/CommandAPI/brigadier-with-javadocs
