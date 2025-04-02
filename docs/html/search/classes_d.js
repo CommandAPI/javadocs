@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['paperadventurenotfoundexception_0',['PaperAdventureNotFoundException',['../classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_paper_adventure_not_found_exception.html',1,'dev::jorel::commandapi::exceptions']]],
+  ['papercommandregistration_1',['PaperCommandRegistration',['../classdev_1_1jorel_1_1commandapi_1_1_paper_command_registration.html',1,'dev::jorel::commandapi']]],
+  ['paperimplementations_2',['PaperImplementations',['../classdev_1_1jorel_1_1commandapi_1_1_paper_implementations.html',1,'dev::jorel::commandapi']]],
+  ['parsedargument_3',['ParsedArgument',['../classcom_1_1mojang_1_1brigadier_1_1context_1_1_parsed_argument.html',1,'com::mojang::brigadier::context']]],
+  ['parsedcommandnode_4',['ParsedCommandNode',['../classcom_1_1mojang_1_1brigadier_1_1context_1_1_parsed_command_node.html',1,'com::mojang::brigadier::context']]],
+  ['parseresults_5',['ParseResults',['../classcom_1_1mojang_1_1brigadier_1_1_parse_results.html',1,'com::mojang::brigadier']]],
+  ['particleargument_6',['ParticleArgument',['../classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_particle_argument.html',1,'dev::jorel::commandapi::arguments']]],
+  ['permission_7',['Permission',['../interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1_permission.html',1,'dev::jorel::commandapi::annotations']]],
+  ['platformexecutable_8',['PlatformExecutable',['../interfacedev_1_1jorel_1_1commandapi_1_1_platform_executable.html',1,'dev::jorel::commandapi']]],
+  ['playerargument_9',['PlayerArgument',['../classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_player_argument.html',1,'dev::jorel::commandapi::arguments']]],
+  ['playercommandexecutor_10',['PlayerCommandExecutor',['../interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_player_command_executor.html',1,'dev::jorel::commandapi::executors']]],
+  ['playerexecutioninfo_11',['PlayerExecutionInfo',['../interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_player_execution_info.html',1,'dev::jorel::commandapi::executors']]],
+  ['playerresultingcommandexecutor_12',['PlayerResultingCommandExecutor',['../interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_player_resulting_command_executor.html',1,'dev::jorel::commandapi::executors']]],
+  ['playerresultingexecutioninfo_13',['PlayerResultingExecutionInfo',['../interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_player_resulting_execution_info.html',1,'dev::jorel::commandapi::executors']]],
+  ['playpackethandler_14',['PlayPacketHandler',['../interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_play_packet_handler.html',1,'dev::jorel::commandapi::network']]],
+  ['playpackethandler_3c_20player_20_3e_15',['PlayPacketHandler&lt; Player &gt;',['../interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_play_packet_handler.html',1,'dev::jorel::commandapi::network']]],
+  ['potioneffectargument_16',['PotionEffectArgument',['../classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_potion_effect_argument.html',1,'dev::jorel::commandapi::arguments']]],
+  ['primitive_17',['Primitive',['../interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_primitive.html',1,'dev::jorel::commandapi::annotations::arguments']]],
+  ['protocolversiontoooldexception_18',['ProtocolVersionTooOldException',['../classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_protocol_version_too_old_exception.html',1,'dev::jorel::commandapi::exceptions']]],
+  ['proxycommandexecutor_19',['ProxyCommandExecutor',['../interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_proxy_command_executor.html',1,'dev::jorel::commandapi::executors']]],
+  ['proxyexecutioninfo_20',['ProxyExecutionInfo',['../interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_proxy_execution_info.html',1,'dev::jorel::commandapi::executors']]],
+  ['proxyresultingcommandexecutor_21',['ProxyResultingCommandExecutor',['../interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_proxy_resulting_command_executor.html',1,'dev::jorel::commandapi::executors']]],
+  ['proxyresultingexecutioninfo_22',['ProxyResultingExecutionInfo',['../interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_proxy_resulting_execution_info.html',1,'dev::jorel::commandapi::executors']]]
+];
