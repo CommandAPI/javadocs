@@ -10,6 +10,7 @@ var namespacedev_1_1jorel_1_1commandapi_1_1exceptions =
     [ "NBTAPINotFoundException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_n_b_t_a_p_i_not_found_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_n_b_t_a_p_i_not_found_exception" ],
     [ "OptionalArgumentException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_optional_argument_exception.html", null ],
     [ "PaperAdventureNotFoundException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_paper_adventure_not_found_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_paper_adventure_not_found_exception" ],
+    [ "ProtocolVersionTooOldException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_protocol_version_too_old_exception.html", null ],
     [ "SpigotNotFoundException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_spigot_not_found_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_spigot_not_found_exception" ],
     [ "UnimplementedArgumentException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_unimplemented_argument_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_unimplemented_argument_exception" ],
     [ "WrapperCommandSyntaxException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_wrapper_command_syntax_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_wrapper_command_syntax_exception" ]

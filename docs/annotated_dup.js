@@ -73,6 +73,7 @@ var annotated_dup =
               [ "AAdventureChatArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_adventure_chat_argument.html", null ],
               [ "AAdventureChatComponentArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_adventure_chat_component_argument.html", null ],
               [ "AAngleArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_angle_argument.html", null ],
+              [ "AAsyncOfflinePlayerArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_async_offline_player_argument.html", null ],
               [ "AAxisArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_axis_argument.html", null ],
               [ "ABiomeArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_biome_argument.html", null ],
               [ "ABlockPredicateArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_block_predicate_argument.html", null ],
@@ -83,7 +84,12 @@ var annotated_dup =
               [ "AChatComponentArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_chat_component_argument.html", null ],
               [ "ADoubleArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_double_argument.html", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_double_argument" ],
               [ "AEnchantmentArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_enchantment_argument.html", null ],
-              [ "AEntitySelectorArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_entity_selector_argument.html", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_entity_selector_argument" ],
+              [ "AEntitySelectorArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_entity_selector_argument.html", [
+                [ "ManyEntities", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_entity_selector_argument_1_1_many_entities.html", null ],
+                [ "ManyPlayers", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_entity_selector_argument_1_1_many_players.html", null ],
+                [ "OneEntity", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_entity_selector_argument_1_1_one_entity.html", null ],
+                [ "OnePlayer", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_entity_selector_argument_1_1_one_player.html", null ]
+              ] ],
               [ "AEntityTypeArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_entity_type_argument.html", null ],
               [ "AFloatArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_float_argument.html", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_float_argument" ],
               [ "AFloatRangeArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_float_range_argument.html", null ],
@@ -111,7 +117,10 @@ var annotated_dup =
               [ "ARecipeArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_recipe_argument.html", null ],
               [ "ARotationArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_rotation_argument.html", null ],
               [ "AScoreboardSlotArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_scoreboard_slot_argument.html", null ],
-              [ "AScoreHolderArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_score_holder_argument.html", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_score_holder_argument" ],
+              [ "AScoreHolderArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_score_holder_argument.html", [
+                [ "Multiple", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_score_holder_argument_1_1_multiple.html", null ],
+                [ "Single", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_score_holder_argument_1_1_single.html", null ]
+              ] ],
               [ "ASoundArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_sound_argument.html", null ],
               [ "AStringArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_string_argument.html", null ],
               [ "ATeamArgument", "interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_team_argument.html", null ],
@@ -140,6 +149,7 @@ var annotated_dup =
             [ "Argument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument" ],
             [ "ArgumentSubType", "enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type.html", "enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type" ],
             [ "ArgumentSuggestions", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_suggestions.html", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_suggestions" ],
+            [ "AsyncOfflinePlayerArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_async_offline_player_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_async_offline_player_argument" ],
             [ "AxisArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_axis_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_axis_argument" ],
             [ "BiomeArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_biome_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_biome_argument" ],
             [ "BlockPredicateArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_block_predicate_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_block_predicate_argument" ],
@@ -189,7 +199,6 @@ var annotated_dup =
             [ "ParticleArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_particle_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_particle_argument" ],
             [ "PlayerArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_player_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_player_argument" ],
             [ "PotionEffectArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_potion_effect_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_potion_effect_argument" ],
-            [ "Previewable", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_previewable.html", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_previewable" ],
             [ "RecipeArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_recipe_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_recipe_argument" ],
             [ "RotationArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_rotation_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_rotation_argument" ],
             [ "SafeOverrideable", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_safe_overrideable.html", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_safe_overrideable" ],
@@ -239,6 +248,7 @@ var annotated_dup =
             [ "NBTAPINotFoundException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_n_b_t_a_p_i_not_found_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_n_b_t_a_p_i_not_found_exception" ],
             [ "OptionalArgumentException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_optional_argument_exception.html", null ],
             [ "PaperAdventureNotFoundException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_paper_adventure_not_found_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_paper_adventure_not_found_exception" ],
+            [ "ProtocolVersionTooOldException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_protocol_version_too_old_exception.html", null ],
             [ "SpigotNotFoundException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_spigot_not_found_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_spigot_not_found_exception" ],
             [ "UnimplementedArgumentException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_unimplemented_argument_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_unimplemented_argument_exception" ],
             [ "WrapperCommandSyntaxException", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_wrapper_command_syntax_exception.html", "classdev_1_1jorel_1_1commandapi_1_1exceptions_1_1_wrapper_command_syntax_exception" ]
@@ -286,6 +296,20 @@ var annotated_dup =
             [ "ResultingExecutor", "interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_resulting_executor.html", "interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_resulting_executor" ],
             [ "TypedExecutor", "interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_typed_executor.html", "interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_typed_executor" ]
           ] ],
+          [ "network", null, [
+            [ "BukkitCommandAPIMessenger", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_command_a_p_i_messenger.html", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_command_a_p_i_messenger" ],
+            [ "BukkitHandshakePacketHandler", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_handshake_packet_handler.html", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_handshake_packet_handler" ],
+            [ "BukkitPacketHandlerProvider", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_packet_handler_provider.html", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_packet_handler_provider" ],
+            [ "BukkitPlayPacketHandler", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_play_packet_handler.html", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_play_packet_handler" ],
+            [ "CommandAPIMessenger", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger" ],
+            [ "CommandAPIPacket", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_packet.html", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_packet" ],
+            [ "CommandAPIPacketHandler", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_packet_handler.html", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_packet_handler" ],
+            [ "CommandAPIPacketHandlerProvider", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_packet_handler_provider.html", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_packet_handler_provider" ],
+            [ "CommandAPIProtocol", "enumdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_protocol.html", "enumdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_protocol" ],
+            [ "FriendlyByteBuffer", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_friendly_byte_buffer.html", "classdev_1_1jorel_1_1commandapi_1_1network_1_1_friendly_byte_buffer" ],
+            [ "HandshakePacketHandler", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_handshake_packet_handler.html", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_handshake_packet_handler" ],
+            [ "PlayPacketHandler", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_play_packet_handler.html", "interfacedev_1_1jorel_1_1commandapi_1_1network_1_1_play_packet_handler" ]
+          ] ],
           [ "nms", "namespacedev_1_1jorel_1_1commandapi_1_1nms.html", [
             [ "NMS", "interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s.html", "interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s" ]
           ] ],
@@ -295,10 +319,7 @@ var annotated_dup =
             [ "IntegerRange", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_integer_range.html", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_integer_range" ],
             [ "Location2D", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_location2_d.html", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_location2_d" ],
             [ "MathOperation", "enumdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_math_operation.html", "enumdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_math_operation" ],
-            [ "NativeProxyCommandSender", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_native_proxy_command_sender.html", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_native_proxy_command_sender" ],
-            [ "Preview", "interfacedev_1_1jorel_1_1commandapi_1_1wrappers_1_1_preview.html", null ],
-            [ "PreviewableFunction", "interfacedev_1_1jorel_1_1commandapi_1_1wrappers_1_1_previewable_function.html", null ],
-            [ "PreviewLegacy", "interfacedev_1_1jorel_1_1commandapi_1_1wrappers_1_1_preview_legacy.html", null ],
+            [ "NativeProxyCommandSender", "interfacedev_1_1jorel_1_1commandapi_1_1wrappers_1_1_native_proxy_command_sender.html", "interfacedev_1_1jorel_1_1commandapi_1_1wrappers_1_1_native_proxy_command_sender" ],
             [ "Rotation", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_rotation.html", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_rotation" ],
             [ "ScoreboardSlot", "enumdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_scoreboard_slot.html", "enumdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_scoreboard_slot" ],
             [ "SimpleFunctionWrapper", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_simple_function_wrapper.html", "classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_simple_function_wrapper" ],

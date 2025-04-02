@@ -13,6 +13,7 @@ var interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform =
     [ "preCommandRegistration", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aa7326e92cf6d46b17947ef15492bac23", null ],
     [ "registerCommandNode", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a9824610a7dee4575be4635e32277619a", null ],
     [ "reloadDataPacks", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a1571b2915b3e2b6659b6229f297f1907", null ],
+    [ "setupMessenger", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a0a30e8cac6b62c3ab887b92d50cfa591", null ],
     [ "unregister", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#af3603c2e996b6d921ca16376edbdbbe8", null ],
     [ "updateRequirements", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a3121eb43ecd841fc4db693b5d375671e", null ],
     [ "wrapCommandSender", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a1e7d67f21471285883d28642927e1831", null ]

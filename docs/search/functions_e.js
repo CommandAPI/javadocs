@@ -13,6 +13,5 @@ var searchData=
   ['playerargument_10',['PlayerArgument',['../classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_player_argument.html#a55687f881210e59fbaf42a7745f8f512',1,'dev::jorel::commandapi::arguments::PlayerArgument']]],
   ['postcommandregistration_11',['postCommandRegistration',['../interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aabe6fc4d27981f82db9c3c46ce0f2794',1,'dev::jorel::commandapi::CommandAPIPlatform']]],
   ['potioneffectargument_12',['PotionEffectArgument',['../classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_potion_effect_argument.html#a97cd43f0957b2d888f19878658c7d89d',1,'dev::jorel::commandapi::arguments::PotionEffectArgument']]],
-  ['precommandregistration_13',['preCommandRegistration',['../interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aa7326e92cf6d46b17947ef15492bac23',1,'dev::jorel::commandapi::CommandAPIPlatform']]],
-  ['previewinfo_3c_20t_20_3e_14',['PreviewInfo&lt; T &gt;',['../namespacedev_1_1jorel_1_1commandapi_1_1arguments.html#a826daf1743bdf3404bf7edcf4f863623',1,'dev::jorel::commandapi::arguments']]]
+  ['precommandregistration_13',['preCommandRegistration',['../interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aa7326e92cf6d46b17947ef15492bac23',1,'dev::jorel::commandapi::CommandAPIPlatform']]]
 ];

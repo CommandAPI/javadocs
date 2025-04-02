@@ -1,6 +1,5 @@
 var classdev_1_1jorel_1_1commandapi_1_1_command_permission =
 [
-    [ "PermissionNode", "enumdev_1_1jorel_1_1commandapi_1_1_command_permission_1_1_permission_node.html", "enumdev_1_1jorel_1_1commandapi_1_1_command_permission_1_1_permission_node" ],
     [ "fromString", "classdev_1_1jorel_1_1commandapi_1_1_command_permission.html#a23e33384d0a953e0b44799f6d5f1c34b", null ],
     [ "getPermission", "classdev_1_1jorel_1_1commandapi_1_1_command_permission.html#a7575458ee5b50152a300d3ab9d6638e4", null ],
     [ "isNegated", "classdev_1_1jorel_1_1commandapi_1_1_command_permission.html#ab99b7f3e1afec0951e82ef098cf0e332", null ],

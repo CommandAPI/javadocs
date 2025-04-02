@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['recipe_0',['RECIPE',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#aa09cc874d11bcf22ee751db19880215e',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
-  ['recipes_1',['RECIPES',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_suggestion_providers.html#a704914d66c48553507c985c95e6ce33f',1,'dev::jorel::commandapi::arguments::SuggestionProviders']]],
-  ['remote_2',['REMOTE',['../enumdev_1_1jorel_1_1commandapi_1_1executors_1_1_executor_type.html#ab0a06dbfbad65a2cb2ee45cb72b0993f',1,'dev::jorel::commandapi::executors::ExecutorType']]],
-  ['rotation_3',['ROTATION',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a4e759cd1d96965532e758cc6df6c5577',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]]
+  ['objective_0',['OBJECTIVE',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a0f0dde9643a62fab9bea9483cb09973a',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['objective_5fcriteria_1',['OBJECTIVE_CRITERIA',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a88c23c908b311e33a06fae6edfb90e97',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['offline_5fplayer_2',['OFFLINE_PLAYER',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#aca926ae549b4113409bc20cf00ab309e',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['op_3',['OP',['../classdev_1_1jorel_1_1commandapi_1_1_command_permission.html#a481a37fbb1386d5070664c61f9f4dd5a',1,'dev::jorel::commandapi::CommandPermission']]]
 ];

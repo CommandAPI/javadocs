@@ -11,5 +11,6 @@ var searchData=
   ['argument_5fseparator_8',['ARGUMENT_SEPARATOR',['../classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html#a457217ec881e3c1ad20c9efc024ed6ea',1,'com::mojang::brigadier::CommandDispatcher']]],
   ['argument_5fseparator_5fchar_9',['ARGUMENT_SEPARATOR_CHAR',['../classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html#ad1b0ac203944da8323b90ddd02cbab77',1,'com::mojang::brigadier::CommandDispatcher']]],
   ['assign_10',['ASSIGN',['../enumdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_math_operation.html#a6f206d87108ed092af3f568f789ebe4f',1,'dev::jorel::commandapi::wrappers::MathOperation']]],
-  ['axis_11',['AXIS',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#aebca6750f8f79f80ea7acab2aecc8b01',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]]
+  ['async_5foffline_5fplayer_11',['ASYNC_OFFLINE_PLAYER',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ad056cae3b62940ebaa8bb5b7ceb87b99',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['axis_12',['AXIS',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#aebca6750f8f79f80ea7acab2aecc8b01',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]]
 ];

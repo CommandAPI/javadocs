@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['team_0',['TEAM',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a72f7cc0043b1a0d16e3e84de02fed00c',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
-  ['time_1',['TIME',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ae42327b61e1cc61de34e8f6501ad624c',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]]
+  ['quotable_5fphrase_0',['QUOTABLE_PHRASE',['../enumcom_1_1mojang_1_1brigadier_1_1arguments_1_1_string_argument_type_1_1_string_type.html#a7dfad98550d90fb6993066ed5efb684f',1,'com::mojang::brigadier::arguments::StringArgumentType::StringType']]]
 ];

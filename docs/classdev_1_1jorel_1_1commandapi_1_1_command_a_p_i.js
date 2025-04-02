@@ -8,6 +8,7 @@ var classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i =
     [ "getRegisteredCommands", "classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#ab52fa3db0a7451a94da8517f8d225ad3", null ],
     [ "isLoaded", "classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#aa24f34685905b2b8aef10b066dc70578", null ],
     [ "logError", "classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#aaf15fafd982b97dd2490f41b5dc951a0", null ],
+    [ "logException", "classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#ac7d22381eb65d61b5cc185c91380b5a4", null ],
     [ "logInfo", "classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#a386654d2b9a36d863263c6def5430845", null ],
     [ "logNormal", "classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#ab833a9fcd97efad363b5cdd45fa2c619", null ],
     [ "logWarning", "classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#a799ab6b855af6b3781abfb14f817aee1", null ],

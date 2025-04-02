@@ -9,6 +9,7 @@ var namespacedev_1_1jorel_1_1commandapi_1_1arguments =
     [ "Argument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument" ],
     [ "ArgumentSubType", "enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type.html", "enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type" ],
     [ "ArgumentSuggestions", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_suggestions.html", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_suggestions" ],
+    [ "AsyncOfflinePlayerArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_async_offline_player_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_async_offline_player_argument" ],
     [ "AxisArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_axis_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_axis_argument" ],
     [ "BiomeArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_biome_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_biome_argument" ],
     [ "BlockPredicateArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_block_predicate_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_block_predicate_argument" ],
@@ -58,7 +59,6 @@ var namespacedev_1_1jorel_1_1commandapi_1_1arguments =
     [ "ParticleArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_particle_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_particle_argument" ],
     [ "PlayerArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_player_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_player_argument" ],
     [ "PotionEffectArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_potion_effect_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_potion_effect_argument" ],
-    [ "Previewable", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_previewable.html", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_previewable" ],
     [ "RecipeArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_recipe_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_recipe_argument" ],
     [ "RotationArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_rotation_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_rotation_argument" ],
     [ "SafeOverrideable", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_safe_overrideable.html", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_safe_overrideable" ],
@@ -75,6 +75,5 @@ var namespacedev_1_1jorel_1_1commandapi_1_1arguments =
     [ "TextArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_text_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_text_argument" ],
     [ "TimeArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_time_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_time_argument" ],
     [ "UUIDArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_u_u_i_d_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_u_u_i_d_argument" ],
-    [ "WorldArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_world_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_world_argument" ],
-    [ "PreviewInfo< T >", "namespacedev_1_1jorel_1_1commandapi_1_1arguments.html#a826daf1743bdf3404bf7edcf4f863623", null ]
+    [ "WorldArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_world_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_world_argument" ]
 ];

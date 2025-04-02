@@ -6,6 +6,7 @@ var classdev_1_1jorel_1_1commandapi_1_1_paper_implementations =
     [ "getFeedbackForwardingCommandSender", "classdev_1_1jorel_1_1commandapi_1_1_paper_implementations.html#a0ea78340cc0d2319b1b93cd8917a0fd5", null ],
     [ "getNullCommandSender", "classdev_1_1jorel_1_1commandapi_1_1_paper_implementations.html#ae0d38d7f26be43c2a733ffc37f263d47", null ],
     [ "isFoliaPresent", "classdev_1_1jorel_1_1commandapi_1_1_paper_implementations.html#a117d3e91a256f5330d48b92f2c1390a9", null ],
+    [ "isPaperBrigAPI", "classdev_1_1jorel_1_1commandapi_1_1_paper_implementations.html#a662c1c19848b52bf0a710aaf8a5dbeb3", null ],
     [ "isPaperPresent", "classdev_1_1jorel_1_1commandapi_1_1_paper_implementations.html#a3bce5d96f687098af0d5d14a55443f3d", null ],
     [ "registerReloadHandler", "classdev_1_1jorel_1_1commandapi_1_1_paper_implementations.html#aa5482b88bafb52890f739f21f49ae7d0", null ]
 ];
