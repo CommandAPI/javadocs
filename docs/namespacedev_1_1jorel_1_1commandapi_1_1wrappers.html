@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="cmdapilogosmall.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">CommandAPI<span id="projectnumber">&#160;9.7.0</span>
+   <div id="projectname">CommandAPI<span id="projectnumber">&#160;11.1.0</span>
    </div>
    <div id="projectbrief">An API for the command UI introduced in Minecraft 1.13</div>
   </td>
@@ -97,8 +97,8 @@ $(document).ready(function(){initNavTree('namespacedev_1_1jorel_1_1commandapi_1_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_float_range.html">FloatRange</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class representing a range of floats.  <a href="classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_float_range.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_double_range.html">DoubleRange</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class representing a range of doubles.  <a href="classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_double_range.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_function_wrapper.html">FunctionWrapper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper class for Minecraft 1.12's functions.  <a href="classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_function_wrapper.html#details">More...</a><br /></td></tr>
@@ -133,12 +133,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a3e22f59d9d40595d7733a203f285aa18"><td class="memItemLeft" align="right" valign="top">record&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html#a3e22f59d9d40595d7733a203f285aa18">CommandResult</a> (Command command, String[] args)</td></tr>
 <tr class="memdesc:a3e22f59d9d40595d7733a203f285aa18"><td class="mdescLeft">&#160;</td><td class="mdescRight">CommandResult represents an executable command.  <a href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html#a3e22f59d9d40595d7733a203f285aa18">More...</a><br /></td></tr>
 <tr class="separator:a3e22f59d9d40595d7733a203f285aa18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ff6e31ed1b0773fb119c3a61cefbe81"><td class="memItemLeft" align="right" valign="top">record&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html#a4ff6e31ed1b0773fb119c3a61cefbe81">ComplexRecipeImpl</a> (NamespacedKey key, Recipe recipe) implements ComplexRecipe</td></tr>
-<tr class="memdesc:a4ff6e31ed1b0773fb119c3a61cefbe81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a ComplexRecipe based on a NamespacedKey and a Recipe object.  <a href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html#a4ff6e31ed1b0773fb119c3a61cefbe81">More...</a><br /></td></tr>
-<tr class="separator:a4ff6e31ed1b0773fb119c3a61cefbe81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a939e0f1696d8a80e75dc655255941137"><td class="memItemLeft" align="right" valign="top">record&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html#a939e0f1696d8a80e75dc655255941137">ParticleData&lt; T &gt;</a> (Particle particle, T data)</td></tr>
-<tr class="memdesc:a939e0f1696d8a80e75dc655255941137"><td class="mdescLeft">&#160;</td><td class="mdescRight">A data structure that stores a particle and its corresponding data (or null if no data is present)  <a href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html#a939e0f1696d8a80e75dc655255941137">More...</a><br /></td></tr>
-<tr class="separator:a939e0f1696d8a80e75dc655255941137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ac9e27e4c00198849ec5fdcdb881d9a"><td class="memItemLeft" align="right" valign="top">record&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html#a9ac9e27e4c00198849ec5fdcdb881d9a">ParticleData&lt; T &gt;</a> (Particle particle, @Nullable T data)</td></tr>
+<tr class="memdesc:a9ac9e27e4c00198849ec5fdcdb881d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A data structure that stores a particle and its corresponding data (or null if no data is present)  <a href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html#a9ac9e27e4c00198849ec5fdcdb881d9a">More...</a><br /></td></tr>
+<tr class="separator:a9ac9e27e4c00198849ec5fdcdb881d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Classes that are wrappers for various vanilla-related command features. </p>
@@ -195,49 +192,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ff6e31ed1b0773fb119c3a61cefbe81" name="a4ff6e31ed1b0773fb119c3a61cefbe81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ff6e31ed1b0773fb119c3a61cefbe81">&#9670;&nbsp;</a></span>ComplexRecipeImpl()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">record dev.jorel.commandapi.wrappers.ComplexRecipeImpl </td>
-          <td>(</td>
-          <td class="paramtype">NamespacedKey&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Recipe&#160;</td>
-          <td class="paramname"><em>recipe</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a ComplexRecipe based on a NamespacedKey and a Recipe object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">key</td><td>the namespaced key </td></tr>
-    <tr><td class="paramname">recipe</td><td>the recipe </td></tr>
-  </table>
-  </dd>
-</dl>
-<p >Get the result of this recipe.</p>
-<dl class="section return"><dt>Returns</dt><dd>The result stack</dd></dl>
-<p>Return the namespaced identifier for this object.</p>
-<dl class="section return"><dt>Returns</dt><dd>this object's key</dd></dl>
-
-</div>
-</div>
-<a id="a939e0f1696d8a80e75dc655255941137" name="a939e0f1696d8a80e75dc655255941137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a939e0f1696d8a80e75dc655255941137">&#9670;&nbsp;</a></span>ParticleData&lt; T &gt;()</h2>
+<a id="a9ac9e27e4c00198849ec5fdcdb881d9a" name="a9ac9e27e4c00198849ec5fdcdb881d9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ac9e27e4c00198849ec5fdcdb881d9a">&#9670;&nbsp;</a></span>ParticleData&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,7 +207,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T&#160;</td>
+          <td class="paramtype">@Nullable T&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -280,7 +236,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><b>dev</b></li><li class="navelem"><b>jorel</b></li><li class="navelem"><b>commandapi</b></li><li class="navelem"><a class="el" href="namespacedev_1_1jorel_1_1commandapi_1_1wrappers.html">wrappers</a></li>
 				<li class="footer">
-					Generated on Wed Apr 2 2025 22:40:31 for CommandAPI 9.7.0 using <a href="http://www.doxygen.org/index.html">Doxygen</a> 1.9.3.
+					Generated on Tue Dec 16 2025 12:46:49 for CommandAPI 11.1.0 using <a href="http://www.doxygen.org/index.html">Doxygen</a> 1.9.3.
 					Flat theme modified from <a href="https://github.com/kcwongjoe/doxygen_theme_flat_design" target="_new">kcwongjoe/doxygen_theme_flat_design</a>. MIT License.
 				</li>
 			</ul>

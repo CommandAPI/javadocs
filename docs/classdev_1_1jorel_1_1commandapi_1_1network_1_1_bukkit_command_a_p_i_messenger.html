@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="cmdapilogosmall.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">CommandAPI<span id="projectnumber">&#160;9.7.0</span>
+   <div id="projectname">CommandAPI<span id="projectnumber">&#160;11.1.0</span>
    </div>
    <div id="projectbrief">An API for the command UI introduced in Minecraft 1.13</div>
   </td>
@@ -142,12 +142,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sendRawBytes</b> (<a 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a78ed3babbe097178ab342dbb0af41ece"><td class="memItemLeft" align="right" valign="top"><a id="a78ed3babbe097178ab342dbb0af41ece" name="a78ed3babbe097178ab342dbb0af41ece"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handlePacketException</b> (RuntimeException exception, Player source)</td></tr>
+<tr class="separator:a78ed3babbe097178ab342dbb0af41ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68faeacd74bf42872ed4e02ece11bdef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html#a68faeacd74bf42872ed4e02ece11bdef">messageReceived</a> (<a class="el" href="enumdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_protocol.html">CommandAPIProtocol</a> protocol, InputChannel sender, byte[] input)</td></tr>
 <tr class="memdesc:a68faeacd74bf42872ed4e02ece11bdef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a message sent to this plugin.  <a href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html#a68faeacd74bf42872ed4e02ece11bdef">More...</a><br /></td></tr>
 <tr class="separator:a68faeacd74bf42872ed4e02ece11bdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89d729861c24583dff7c3711ecdbc483"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html#a89d729861c24583dff7c3711ecdbc483">sendRawBytes</a> (<a class="el" href="enumdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_protocol.html">CommandAPIProtocol</a> protocol, OutputChannel target, byte[] bytes)</td></tr>
 <tr class="memdesc:a89d729861c24583dff7c3711ecdbc483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an array of bytes to the given target.  <a href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html#a89d729861c24583dff7c3711ecdbc483">More...</a><br /></td></tr>
 <tr class="separator:a89d729861c24583dff7c3711ecdbc483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff1501fd78f3caabe48c9b2cd4b3cb1"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html#afff1501fd78f3caabe48c9b2cd4b3cb1">handlePacketException</a> (RuntimeException exception, InputChannel source)</td></tr>
+<tr class="memdesc:afff1501fd78f3caabe48c9b2cd4b3cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when there is an exception while sending or receiving a packet.  <a href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html#afff1501fd78f3caabe48c9b2cd4b3cb1">More...</a><br /></td></tr>
+<tr class="separator:afff1501fd78f3caabe48c9b2cd4b3cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A <code><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html">CommandAPIMessenger</a></code> for sending and receiving messages to and from <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i_bukkit.html">CommandAPIBukkit</a> and <code><a class="el" href="">Player</a></code>s connected to the Bukkit server. </p>
@@ -212,6 +218,52 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <code><a class="el" href="enumdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_protocol.html#abfe976ef56a910091ea97f117b57fce5">CommandAPIProtocol#PROTOCOL_VERSION</a></code> supported by this target. </dd></dl>
+
+</div>
+</div>
+<a id="afff1501fd78f3caabe48c9b2cd4b3cb1" name="afff1501fd78f3caabe48c9b2cd4b3cb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afff1501fd78f3caabe48c9b2cd4b3cb1">&#9670;&nbsp;</a></span>handlePacketException()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html">dev.jorel.commandapi.network.CommandAPIMessenger</a>&lt; InputChannel, OutputChannel &gt;.handlePacketException </td>
+          <td>(</td>
+          <td class="paramtype">RuntimeException&#160;</td>
+          <td class="paramname"><em>exception</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputChannel&#160;</td>
+          <td class="paramname"><em>source</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when there is an exception while sending or receiving a packet. </p>
+<p >May rethrow the exception or log it in another manner.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">exception</td><td>The exception that was thrown. </td></tr>
+    <tr><td class="paramname">source</td><td>The connection that sent the packet which caused the exception during receiving. This parameter will be null if an exception happens while sending. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -423,7 +475,7 @@ Protected Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><b>dev</b></li><li class="navelem"><b>jorel</b></li><li class="navelem"><b>commandapi</b></li><li class="navelem"><b>network</b></li><li class="navelem"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_bukkit_command_a_p_i_messenger.html">BukkitCommandAPIMessenger</a></li>
 				<li class="footer">
-					Generated on Wed Apr 2 2025 22:40:31 for CommandAPI 9.7.0 using <a href="http://www.doxygen.org/index.html">Doxygen</a> 1.9.3.
+					Generated on Tue Dec 16 2025 12:46:49 for CommandAPI 11.1.0 using <a href="http://www.doxygen.org/index.html">Doxygen</a> 1.9.3.
 					Flat theme modified from <a href="https://github.com/kcwongjoe/doxygen_theme_flat_design" target="_new">kcwongjoe/doxygen_theme_flat_design</a>. MIT License.
 				</li>
 			</ul>

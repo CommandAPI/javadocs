@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="cmdapilogosmall.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">CommandAPI<span id="projectnumber">&#160;9.7.0</span>
+   <div id="projectname">CommandAPI<span id="projectnumber">&#160;11.1.0</span>
    </div>
    <div id="projectbrief">An API for the command UI introduced in Minecraft 1.13</div>
   </td>
@@ -94,74 +94,75 @@ $(document).ready(function(){initNavTree('interfacedev_1_1jorel_1_1commandapi_1_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa567018db6a0c2dce3469ff40a7815da"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aa567018db6a0c2dce3469ff40a7815da">onLoad</a> (<a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i_config.html">CommandAPIConfig</a>&lt;?&gt; config)</td></tr>
-<tr class="memdesc:aa567018db6a0c2dce3469ff40a7815da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform-specific stuff that should happen when the <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> is loaded, such as checking dependencies and initializing helper classes.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aa567018db6a0c2dce3469ff40a7815da">More...</a><br /></td></tr>
-<tr class="separator:aa567018db6a0c2dce3469ff40a7815da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ddccaf43f1338c69a0235d172848818"><td class="memItemLeft" align="right" valign="top"><a id="a9ddccaf43f1338c69a0235d172848818" name="a9ddccaf43f1338c69a0235d172848818"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>onEnable</b> ()</td></tr>
-<tr class="memdesc:a9ddccaf43f1338c69a0235d172848818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform-specific stuff that should happen when the <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> is enabled, such as registering event listeners. <br /></td></tr>
-<tr class="separator:a9ddccaf43f1338c69a0235d172848818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a658cbc2c245e6b7f62c018f152a7888f"><td class="memItemLeft" align="right" valign="top"><a id="a658cbc2c245e6b7f62c018f152a7888f" name="a658cbc2c245e6b7f62c018f152a7888f"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>onDisable</b> ()</td></tr>
-<tr class="memdesc:a658cbc2c245e6b7f62c018f152a7888f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform-specific stuff that should happen when the <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> is disabled. <br /></td></tr>
-<tr class="separator:a658cbc2c245e6b7f62c018f152a7888f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36d1d09894ae8b9165f65d11d2568755"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a36d1d09894ae8b9165f65d11d2568755">getSenderForCommand</a> (<a class="el" href="classcom_1_1mojang_1_1brigadier_1_1context_1_1_command_context.html">CommandContext</a>&lt; Source &gt; cmdCtx, boolean forceNative)</td></tr>
-<tr class="memdesc:a36d1d09894ae8b9165f65d11d2568755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> CommandContext into an AbstractCommandSender wrapping the platform's CommandSender.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a36d1d09894ae8b9165f65d11d2568755">More...</a><br /></td></tr>
-<tr class="separator:a36d1d09894ae8b9165f65d11d2568755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a692c538f47d15937c75ea524f634430b"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a692c538f47d15937c75ea524f634430b">getCommandSenderFromCommandSource</a> (Source source)</td></tr>
-<tr class="memdesc:a692c538f47d15937c75ea524f634430b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the class used by <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> when running commands into an AbstractCommandSender wrapping the platform's CommandSender.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a692c538f47d15937c75ea524f634430b">More...</a><br /></td></tr>
-<tr class="separator:a692c538f47d15937c75ea524f634430b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93cd2f41c67c268fcdeccdc7f86459e6"><td class="memItemLeft" align="right" valign="top">abstract Source&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a93cd2f41c67c268fcdeccdc7f86459e6">getBrigadierSourceFromCommandSender</a> (<a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt; sender)</td></tr>
-<tr class="memdesc:a93cd2f41c67c268fcdeccdc7f86459e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a CommandSender wrapped in an AbstractCommandSender to an object <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> can use when running its commands.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a93cd2f41c67c268fcdeccdc7f86459e6">More...</a><br /></td></tr>
-<tr class="separator:a93cd2f41c67c268fcdeccdc7f86459e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e7d67f21471285883d28642927e1831"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a1e7d67f21471285883d28642927e1831">wrapCommandSender</a> (CommandSender sender)</td></tr>
-<tr class="memdesc:a1e7d67f21471285883d28642927e1831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps a CommandSender in an AbstractCommandSender class, the inverse operation to <code><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html#afb2aa156f8b6467550219de3ae01248d">AbstractCommandSender#getSource()</a></code>.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a1e7d67f21471285883d28642927e1831">More...</a><br /></td></tr>
-<tr class="separator:a1e7d67f21471285883d28642927e1831"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac217fc74c3643c8aa59b25c54a8902c3"><td class="memItemLeft" align="right" valign="top"><a id="ac217fc74c3643c8aa59b25c54a8902c3" name="ac217fc74c3643c8aa59b25c54a8902c3"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>registerPermission</b> (String string)</td></tr>
-<tr class="separator:ac217fc74c3643c8aa59b25c54a8902c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada07b22799ae48f0afb067f1fba1917b"><td class="memItemLeft" align="right" valign="top"><a id="ada07b22799ae48f0afb067f1fba1917b" name="ada07b22799ae48f0afb067f1fba1917b"></a>
-abstract <a class="el" href="interfacecom_1_1mojang_1_1brigadier_1_1suggestion_1_1_suggestion_provider.html">SuggestionProvider</a>&lt; Source &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getSuggestionProvider</b> (<a class="el" href="enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_suggestion_providers.html">SuggestionProviders</a> suggestionProvider)</td></tr>
-<tr class="separator:ada07b22799ae48f0afb067f1fba1917b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7326e92cf6d46b17947ef15492bac23"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aa7326e92cf6d46b17947ef15492bac23">preCommandRegistration</a> (String commandName)</td></tr>
-<tr class="memdesc:aa7326e92cf6d46b17947ef15492bac23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stuff to run before a command is generated.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aa7326e92cf6d46b17947ef15492bac23">More...</a><br /></td></tr>
-<tr class="separator:aa7326e92cf6d46b17947ef15492bac23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabe6fc4d27981f82db9c3c46ce0f2794"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aabe6fc4d27981f82db9c3c46ce0f2794">postCommandRegistration</a> (RegisteredCommand registeredCommand, <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1tree_1_1_literal_command_node.html">LiteralCommandNode</a>&lt; Source &gt; resultantNode, List&lt; <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1tree_1_1_literal_command_node.html">LiteralCommandNode</a>&lt; Source &gt; &gt; aliasNodes)</td></tr>
-<tr class="memdesc:aabe6fc4d27981f82db9c3c46ce0f2794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stuff to run after a command has been generated.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aabe6fc4d27981f82db9c3c46ce0f2794">More...</a><br /></td></tr>
-<tr class="separator:aabe6fc4d27981f82db9c3c46ce0f2794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9824610a7dee4575be4635e32277619a"><td class="memItemLeft" align="right" valign="top"><a id="a9824610a7dee4575be4635e32277619a" name="a9824610a7dee4575be4635e32277619a"></a>
-abstract <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1tree_1_1_literal_command_node.html">LiteralCommandNode</a>&lt; Source &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>registerCommandNode</b> (<a class="el" href="classcom_1_1mojang_1_1brigadier_1_1builder_1_1_literal_argument_builder.html">LiteralArgumentBuilder</a>&lt; Source &gt; node, String namespace)</td></tr>
-<tr class="memdesc:a9824610a7dee4575be4635e32277619a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> command node and returns the built node. <br /></td></tr>
-<tr class="separator:a9824610a7dee4575be4635e32277619a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3603c2e996b6d921ca16376edbdbbe8"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#af3603c2e996b6d921ca16376edbdbbe8">unregister</a> (String commandName, boolean unregisterNamespaces)</td></tr>
-<tr class="memdesc:af3603c2e996b6d921ca16376edbdbbe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters a command from the CommandGraph so it can't be run anymore.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#af3603c2e996b6d921ca16376edbdbbe8">More...</a><br /></td></tr>
-<tr class="separator:af3603c2e996b6d921ca16376edbdbbe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a30e8cac6b62c3ab887b92d50cfa591"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html">CommandAPIMessenger</a>&lt;?, ?&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a0a30e8cac6b62c3ab887b92d50cfa591">setupMessenger</a> ()</td></tr>
-<tr class="memdesc:a0a30e8cac6b62c3ab887b92d50cfa591"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <code><a class="el" href="">CommandAPIMessenger</a></code> for this platform.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a0a30e8cac6b62c3ab887b92d50cfa591">More...</a><br /></td></tr>
-<tr class="separator:a0a30e8cac6b62c3ab887b92d50cfa591"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03a26f7c9661e177bca81ec80bff8064"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html">CommandDispatcher</a>&lt; Source &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a03a26f7c9661e177bca81ec80bff8064">getBrigadierDispatcher</a> ()</td></tr>
-<tr class="separator:a03a26f7c9661e177bca81ec80bff8064"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0194cab52dbe7f07704fe03a57486dfd"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a0194cab52dbe7f07704fe03a57486dfd">createDispatcherFile</a> (File file, <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html">CommandDispatcher</a>&lt; Source &gt; dispatcher)  throws IOException</td></tr>
-<tr class="memdesc:a0194cab52dbe7f07704fe03a57486dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a JSON file that describes the hierarchical structure of the commands that have been registered by the server.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a0194cab52dbe7f07704fe03a57486dfd">More...</a><br /></td></tr>
-<tr class="separator:a0194cab52dbe7f07704fe03a57486dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad359b9c9bd4d5c586e2ef0d2baf22235"><td class="memItemLeft" align="right" valign="top"><a id="ad359b9c9bd4d5c586e2ef0d2baf22235" name="ad359b9c9bd4d5c586e2ef0d2baf22235"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>onLoad</b> ()</td></tr>
+<tr class="memdesc:ad359b9c9bd4d5c586e2ef0d2baf22235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform-specific stuff that should happen when the <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> is loaded, such as checking dependencies and initializing helper classes. <br /></td></tr>
+<tr class="separator:ad359b9c9bd4d5c586e2ef0d2baf22235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f67bc2a880d231e417706c2cc8129d5"><td class="memItemLeft" align="right" valign="top"><a id="a0f67bc2a880d231e417706c2cc8129d5" name="a0f67bc2a880d231e417706c2cc8129d5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>onEnable</b> ()</td></tr>
+<tr class="memdesc:a0f67bc2a880d231e417706c2cc8129d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform-specific stuff that should happen when the <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> is enabled. <br /></td></tr>
+<tr class="separator:a0f67bc2a880d231e417706c2cc8129d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c8b7dd605968e9872bd170f2dce92bb"><td class="memItemLeft" align="right" valign="top"><a id="a7c8b7dd605968e9872bd170f2dce92bb" name="a7c8b7dd605968e9872bd170f2dce92bb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>onDisable</b> ()</td></tr>
+<tr class="memdesc:a7c8b7dd605968e9872bd170f2dce92bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform-specific stuff that should happen when the <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> is disabled. <br /></td></tr>
+<tr class="separator:a7c8b7dd605968e9872bd170f2dce92bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1168a4b5cec74c4bf4710476b8761c28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a1168a4b5cec74c4bf4710476b8761c28">getSenderForCommand</a> (<a class="el" href="classcom_1_1mojang_1_1brigadier_1_1context_1_1_command_context.html">CommandContext</a>&lt; Source &gt; cmdCtx, boolean forceNative)</td></tr>
+<tr class="memdesc:a1168a4b5cec74c4bf4710476b8761c28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> CommandContext into an AbstractCommandSender wrapping the platform's CommandSender.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a1168a4b5cec74c4bf4710476b8761c28">More...</a><br /></td></tr>
+<tr class="separator:a1168a4b5cec74c4bf4710476b8761c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339bbad80315c19b7e062b89cf8680e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a339bbad80315c19b7e062b89cf8680e5">getCommandSenderFromCommandSource</a> (Source source)</td></tr>
+<tr class="memdesc:a339bbad80315c19b7e062b89cf8680e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the class used by <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> when running commands into an AbstractCommandSender wrapping the platform's CommandSender.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a339bbad80315c19b7e062b89cf8680e5">More...</a><br /></td></tr>
+<tr class="separator:a339bbad80315c19b7e062b89cf8680e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99308c200536a365a06e2da402501446"><td class="memItemLeft" align="right" valign="top">Source&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a99308c200536a365a06e2da402501446">getBrigadierSourceFromCommandSender</a> (<a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt; sender)</td></tr>
+<tr class="memdesc:a99308c200536a365a06e2da402501446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a CommandSender wrapped in an AbstractCommandSender to an object <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> can use when running its commands.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a99308c200536a365a06e2da402501446">More...</a><br /></td></tr>
+<tr class="separator:a99308c200536a365a06e2da402501446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9997cc9f13b40d22bc6ed4154f836fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#ad9997cc9f13b40d22bc6ed4154f836fd">wrapCommandSender</a> (CommandSender sender)</td></tr>
+<tr class="memdesc:ad9997cc9f13b40d22bc6ed4154f836fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps a CommandSender in an AbstractCommandSender class, the inverse operation to <code><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html#afb2aa156f8b6467550219de3ae01248d">AbstractCommandSender#getSource()</a></code>.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#ad9997cc9f13b40d22bc6ed4154f836fd">More...</a><br /></td></tr>
+<tr class="separator:ad9997cc9f13b40d22bc6ed4154f836fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f66a5aee029237d0edb320c467899a"><td class="memItemLeft" align="right" valign="top"><a id="a39f66a5aee029237d0edb320c467899a" name="a39f66a5aee029237d0edb320c467899a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>registerPermission</b> (String string)</td></tr>
+<tr class="separator:a39f66a5aee029237d0edb320c467899a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349fa245619cac9310a0c376cfa855e6"><td class="memItemLeft" align="right" valign="top"><a id="a349fa245619cac9310a0c376cfa855e6" name="a349fa245619cac9310a0c376cfa855e6"></a>
+<a class="el" href="interfacecom_1_1mojang_1_1brigadier_1_1suggestion_1_1_suggestion_provider.html">SuggestionProvider</a>&lt; Source &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getSuggestionProvider</b> (<a class="el" href="enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_suggestion_providers.html">SuggestionProviders</a> suggestionProvider)</td></tr>
+<tr class="separator:a349fa245619cac9310a0c376cfa855e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef081b89fd0e0453d6fe868952a167f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aef081b89fd0e0453d6fe868952a167f4">preCommandRegistration</a> (String commandName)</td></tr>
+<tr class="memdesc:aef081b89fd0e0453d6fe868952a167f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stuff to run before a command is generated.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aef081b89fd0e0453d6fe868952a167f4">More...</a><br /></td></tr>
+<tr class="separator:aef081b89fd0e0453d6fe868952a167f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3400a87a6eaea2226aea2d45b43f8d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#af3400a87a6eaea2226aea2d45b43f8d4">postCommandRegistration</a> (RegisteredCommand registeredCommand, <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1tree_1_1_literal_command_node.html">LiteralCommandNode</a>&lt; Source &gt; resultantNode, List&lt; <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1tree_1_1_literal_command_node.html">LiteralCommandNode</a>&lt; Source &gt; &gt; aliasNodes)</td></tr>
+<tr class="memdesc:af3400a87a6eaea2226aea2d45b43f8d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stuff to run after a command has been generated.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#af3400a87a6eaea2226aea2d45b43f8d4">More...</a><br /></td></tr>
+<tr class="separator:af3400a87a6eaea2226aea2d45b43f8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5ec4bea488416f5b2c145fc80f3b211"><td class="memItemLeft" align="right" valign="top"><a id="ae5ec4bea488416f5b2c145fc80f3b211" name="ae5ec4bea488416f5b2c145fc80f3b211"></a>
+<a class="el" href="classcom_1_1mojang_1_1brigadier_1_1tree_1_1_literal_command_node.html">LiteralCommandNode</a>&lt; Source &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>registerCommandNode</b> (<a class="el" href="classcom_1_1mojang_1_1brigadier_1_1builder_1_1_literal_argument_builder.html">LiteralArgumentBuilder</a>&lt; Source &gt; node, String namespace)</td></tr>
+<tr class="memdesc:ae5ec4bea488416f5b2c145fc80f3b211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> command node and returns the built node. <br /></td></tr>
+<tr class="separator:ae5ec4bea488416f5b2c145fc80f3b211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78fe2b99b479cdef4a19872ac855580c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a78fe2b99b479cdef4a19872ac855580c">unregister</a> (String commandName, boolean unregisterNamespaces)</td></tr>
+<tr class="memdesc:a78fe2b99b479cdef4a19872ac855580c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters a command from the CommandGraph so it can't be run anymore.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a78fe2b99b479cdef4a19872ac855580c">More...</a><br /></td></tr>
+<tr class="separator:a78fe2b99b479cdef4a19872ac855580c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a315c9217c1f6af0fba701517629389c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html">CommandAPIMessenger</a>&lt;?, ?&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a315c9217c1f6af0fba701517629389c0">setupMessenger</a> ()</td></tr>
+<tr class="memdesc:a315c9217c1f6af0fba701517629389c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <code><a class="el" href="">CommandAPIMessenger</a></code> for this platform.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a315c9217c1f6af0fba701517629389c0">More...</a><br /></td></tr>
+<tr class="separator:a315c9217c1f6af0fba701517629389c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b57383cd635a8c440a3724b73cedfc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html">CommandDispatcher</a>&lt; Source &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a2b57383cd635a8c440a3724b73cedfc2">getBrigadierDispatcher</a> ()</td></tr>
+<tr class="separator:a2b57383cd635a8c440a3724b73cedfc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedb6ec22de459c350d016688791372d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aedb6ec22de459c350d016688791372d2">createDispatcherFile</a> (File file, <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html">CommandDispatcher</a>&lt; Source &gt; dispatcher)  throws IOException</td></tr>
+<tr class="memdesc:aedb6ec22de459c350d016688791372d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a JSON file that describes the hierarchical structure of the commands that have been registered by the server.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aedb6ec22de459c350d016688791372d2">More...</a><br /></td></tr>
+<tr class="separator:aedb6ec22de459c350d016688791372d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac43095dd866b7f327b5dbcb4ffab61a1"><td class="memItemLeft" align="right" valign="top">default <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_logger.html">CommandAPILogger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#ac43095dd866b7f327b5dbcb4ffab61a1">getLogger</a> ()</td></tr>
 <tr class="separator:ac43095dd866b7f327b5dbcb4ffab61a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1571b2915b3e2b6659b6229f297f1907"><td class="memItemLeft" align="right" valign="top"><a id="a1571b2915b3e2b6659b6229f297f1907" name="a1571b2915b3e2b6659b6229f297f1907"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>reloadDataPacks</b> ()</td></tr>
-<tr class="memdesc:a1571b2915b3e2b6659b6229f297f1907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the server's data packs to include <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> commands. <br /></td></tr>
-<tr class="separator:a1571b2915b3e2b6659b6229f297f1907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3121eb43ecd841fc4db693b5d375671e"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a3121eb43ecd841fc4db693b5d375671e">updateRequirements</a> (<a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_player.html">AbstractPlayer</a>&lt;?&gt; player)</td></tr>
-<tr class="memdesc:a3121eb43ecd841fc4db693b5d375671e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the requirements required for a given player to execute a command.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a3121eb43ecd841fc4db693b5d375671e">More...</a><br /></td></tr>
-<tr class="separator:a3121eb43ecd841fc4db693b5d375671e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6a94f297c22b79018e827e966efc101"><td class="memItemLeft" align="right" valign="top"><a id="ad6a94f297c22b79018e827e966efc101" name="ad6a94f297c22b79018e827e966efc101"></a>
-abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_abstract_command_a_p_i_command.html">AbstractCommandAPICommand</a>&lt;?, <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>newConcreteCommandAPICommand</b> (CommandMetaData&lt; CommandSender &gt; meta)</td></tr>
-<tr class="separator:ad6a94f297c22b79018e827e966efc101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43f9d7642fb8298fb764df4a6f0a1ab1"><td class="memItemLeft" align="right" valign="top"><a id="a43f9d7642fb8298fb764df4a6f0a1ab1" name="a43f9d7642fb8298fb764df4a6f0a1ab1"></a>
-abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>&#160;</td><td class="memItemRight" valign="bottom"><b>newConcreteMultiLiteralArgument</b> (String nodeName, String[] literals)</td></tr>
-<tr class="separator:a43f9d7642fb8298fb764df4a6f0a1ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b1168d3c8bbe0d930f8b175c274be2f"><td class="memItemLeft" align="right" valign="top"><a id="a5b1168d3c8bbe0d930f8b175c274be2f" name="a5b1168d3c8bbe0d930f8b175c274be2f"></a>
-abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>&#160;</td><td class="memItemRight" valign="bottom"><b>newConcreteLiteralArgument</b> (String nodeName, String literal)</td></tr>
-<tr class="separator:a5b1168d3c8bbe0d930f8b175c274be2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6490f25b5d88f264979bcd8aa8966b0b"><td class="memItemLeft" align="right" valign="top"><a id="a6490f25b5d88f264979bcd8aa8966b0b" name="a6490f25b5d88f264979bcd8aa8966b0b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>reloadDataPacks</b> ()</td></tr>
+<tr class="memdesc:a6490f25b5d88f264979bcd8aa8966b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the server's data packs to include <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> commands. <br /></td></tr>
+<tr class="separator:a6490f25b5d88f264979bcd8aa8966b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9dd8fddaea24b472c04d491275cfc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a3b9dd8fddaea24b472c04d491275cfc1">updateRequirements</a> (<a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_player.html">AbstractPlayer</a>&lt;?&gt; player)</td></tr>
+<tr class="memdesc:a3b9dd8fddaea24b472c04d491275cfc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the requirements required for a given player to execute a command.  <a href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a3b9dd8fddaea24b472c04d491275cfc1">More...</a><br /></td></tr>
+<tr class="separator:a3b9dd8fddaea24b472c04d491275cfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0468e4fb10c0d8ea7d2eaa191cea5c06"><td class="memItemLeft" align="right" valign="top"><a id="a0468e4fb10c0d8ea7d2eaa191cea5c06" name="a0468e4fb10c0d8ea7d2eaa191cea5c06"></a>
+<a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_abstract_command_a_p_i_command.html">AbstractCommandAPICommand</a>&lt;?, <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>newConcreteCommandAPICommand</b> (CommandMetaData&lt; CommandSender &gt; meta)</td></tr>
+<tr class="separator:a0468e4fb10c0d8ea7d2eaa191cea5c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e99bf1337da2e85908d27a31c320b6a"><td class="memItemLeft" align="right" valign="top"><a id="a2e99bf1337da2e85908d27a31c320b6a" name="a2e99bf1337da2e85908d27a31c320b6a"></a>
+<a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>&#160;</td><td class="memItemRight" valign="bottom"><b>newConcreteMultiLiteralArgument</b> (String nodeName, String[] literals)</td></tr>
+<tr class="separator:a2e99bf1337da2e85908d27a31c320b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74dd1d2e5e80e2d8496f0f6c09b4d717"><td class="memItemLeft" align="right" valign="top"><a id="a74dd1d2e5e80e2d8496f0f6c09b4d717" name="a74dd1d2e5e80e2d8496f0f6c09b4d717"></a>
+<a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>&#160;</td><td class="memItemRight" valign="bottom"><b>newConcreteLiteralArgument</b> (String nodeName, String literal)</td></tr>
+<tr class="separator:a74dd1d2e5e80e2d8496f0f6c09b4d717"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="params"><dt>Parameters</dt><dd>
@@ -173,17 +174,14 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
   </dd>
 </dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0194cab52dbe7f07704fe03a57486dfd" name="a0194cab52dbe7f07704fe03a57486dfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0194cab52dbe7f07704fe03a57486dfd">&#9670;&nbsp;</a></span>createDispatcherFile()</h2>
+<a id="aedb6ec22de459c350d016688791372d2" name="aedb6ec22de459c350d016688791372d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedb6ec22de459c350d016688791372d2">&#9670;&nbsp;</a></span>createDispatcherFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.createDispatcherFile </td>
+          <td class="memname">void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.createDispatcherFile </td>
           <td>(</td>
           <td class="paramtype">File&#160;</td>
           <td class="paramname"><em>file</em>, </td>
@@ -200,11 +198,6 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
           <td></td><td> throws IOException</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Creates a JSON file that describes the hierarchical structure of the commands that have been registered by the server. </p>
@@ -224,54 +217,38 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="a03a26f7c9661e177bca81ec80bff8064" name="a03a26f7c9661e177bca81ec80bff8064"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a26f7c9661e177bca81ec80bff8064">&#9670;&nbsp;</a></span>getBrigadierDispatcher()</h2>
+<a id="a2b57383cd635a8c440a3724b73cedfc2" name="a2b57383cd635a8c440a3724b73cedfc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b57383cd635a8c440a3724b73cedfc2">&#9670;&nbsp;</a></span>getBrigadierDispatcher()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract <a class="el" href="classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html">CommandDispatcher</a>&lt; Source &gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.getBrigadierDispatcher </td>
+          <td class="memname"><a class="el" href="classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html">CommandDispatcher</a>&lt; Source &gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.getBrigadierDispatcher </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> CommandDispatcher tree being used by the platform's server </dd></dl>
 
 </div>
 </div>
-<a id="a93cd2f41c67c268fcdeccdc7f86459e6" name="a93cd2f41c67c268fcdeccdc7f86459e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93cd2f41c67c268fcdeccdc7f86459e6">&#9670;&nbsp;</a></span>getBrigadierSourceFromCommandSender()</h2>
+<a id="a99308c200536a365a06e2da402501446" name="a99308c200536a365a06e2da402501446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99308c200536a365a06e2da402501446">&#9670;&nbsp;</a></span>getBrigadierSourceFromCommandSender()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract Source <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.getBrigadierSourceFromCommandSender </td>
+          <td class="memname">Source <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.getBrigadierSourceFromCommandSender </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt;&#160;</td>
           <td class="paramname"><em>sender</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Converts a CommandSender wrapped in an AbstractCommandSender to an object <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> can use when running its commands. </p>
@@ -285,28 +262,20 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="a692c538f47d15937c75ea524f634430b" name="a692c538f47d15937c75ea524f634430b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a692c538f47d15937c75ea524f634430b">&#9670;&nbsp;</a></span>getCommandSenderFromCommandSource()</h2>
+<a id="a339bbad80315c19b7e062b89cf8680e5" name="a339bbad80315c19b7e062b89cf8680e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a339bbad80315c19b7e062b89cf8680e5">&#9670;&nbsp;</a></span>getCommandSenderFromCommandSource()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.getCommandSenderFromCommandSource </td>
+          <td class="memname"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.getCommandSenderFromCommandSource </td>
           <td>(</td>
           <td class="paramtype">Source&#160;</td>
           <td class="paramname"><em>source</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Converts the class used by <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> when running commands into an AbstractCommandSender wrapping the platform's CommandSender. </p>
@@ -338,17 +307,14 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="a36d1d09894ae8b9165f65d11d2568755" name="a36d1d09894ae8b9165f65d11d2568755"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d1d09894ae8b9165f65d11d2568755">&#9670;&nbsp;</a></span>getSenderForCommand()</h2>
+<a id="a1168a4b5cec74c4bf4710476b8761c28" name="a1168a4b5cec74c4bf4710476b8761c28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1168a4b5cec74c4bf4710476b8761c28">&#9670;&nbsp;</a></span>getSenderForCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.getSenderForCommand </td>
+          <td class="memname"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.getSenderForCommand </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classcom_1_1mojang_1_1brigadier_1_1context_1_1_command_context.html">CommandContext</a>&lt; Source &gt;&#160;</td>
           <td class="paramname"><em>cmdCtx</em>, </td>
@@ -365,11 +331,6 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Converts a <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_brigadier.html" title="The Brigadier class is used to access some of the internals of the CommandAPI so you can use the Comm...">Brigadier</a> CommandContext into an AbstractCommandSender wrapping the platform's CommandSender. </p>
@@ -384,51 +345,14 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="aa567018db6a0c2dce3469ff40a7815da" name="aa567018db6a0c2dce3469ff40a7815da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa567018db6a0c2dce3469ff40a7815da">&#9670;&nbsp;</a></span>onLoad()</h2>
+<a id="af3400a87a6eaea2226aea2d45b43f8d4" name="af3400a87a6eaea2226aea2d45b43f8d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3400a87a6eaea2226aea2d45b43f8d4">&#9670;&nbsp;</a></span>postCommandRegistration()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.onLoad </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i_config.html">CommandAPIConfig</a>&lt;?&gt;&#160;</td>
-          <td class="paramname"><em>config</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Platform-specific stuff that should happen when the <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a> is loaded, such as checking dependencies and initializing helper classes. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">config</td><td>the configuration to use for the <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html" title="Class to register commands with the 1.13 command UI.">CommandAPI</a>. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aabe6fc4d27981f82db9c3c46ce0f2794" name="aabe6fc4d27981f82db9c3c46ce0f2794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabe6fc4d27981f82db9c3c46ce0f2794">&#9670;&nbsp;</a></span>postCommandRegistration()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abstract void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.postCommandRegistration </td>
+          <td class="memname">void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.postCommandRegistration </td>
           <td>(</td>
           <td class="paramtype">RegisteredCommand&#160;</td>
           <td class="paramname"><em>registeredCommand</em>, </td>
@@ -451,11 +375,6 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Stuff to run after a command has been generated. </p>
@@ -470,28 +389,20 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="aa7326e92cf6d46b17947ef15492bac23" name="aa7326e92cf6d46b17947ef15492bac23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7326e92cf6d46b17947ef15492bac23">&#9670;&nbsp;</a></span>preCommandRegistration()</h2>
+<a id="aef081b89fd0e0453d6fe868952a167f4" name="aef081b89fd0e0453d6fe868952a167f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef081b89fd0e0453d6fe868952a167f4">&#9670;&nbsp;</a></span>preCommandRegistration()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.preCommandRegistration </td>
+          <td class="memname">void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.preCommandRegistration </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>commandName</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Stuff to run before a command is generated. </p>
@@ -505,27 +416,19 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="a0a30e8cac6b62c3ab887b92d50cfa591" name="a0a30e8cac6b62c3ab887b92d50cfa591"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a30e8cac6b62c3ab887b92d50cfa591">&#9670;&nbsp;</a></span>setupMessenger()</h2>
+<a id="a315c9217c1f6af0fba701517629389c0" name="a315c9217c1f6af0fba701517629389c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a315c9217c1f6af0fba701517629389c0">&#9670;&nbsp;</a></span>setupMessenger()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html">CommandAPIMessenger</a>&lt;?, ?&gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.setupMessenger </td>
+          <td class="memname"><a class="el" href="classdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_messenger.html">CommandAPIMessenger</a>&lt;?, ?&gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.setupMessenger </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Creates a new <code><a class="el" href="">CommandAPIMessenger</a></code> for this platform. </p>
@@ -534,17 +437,14 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="af3603c2e996b6d921ca16376edbdbbe8" name="af3603c2e996b6d921ca16376edbdbbe8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3603c2e996b6d921ca16376edbdbbe8">&#9670;&nbsp;</a></span>unregister()</h2>
+<a id="a78fe2b99b479cdef4a19872ac855580c" name="a78fe2b99b479cdef4a19872ac855580c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78fe2b99b479cdef4a19872ac855580c">&#9670;&nbsp;</a></span>unregister()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.unregister </td>
+          <td class="memname">void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.unregister </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>commandName</em>, </td>
@@ -561,11 +461,6 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Unregisters a command from the CommandGraph so it can't be run anymore. </p>
@@ -579,28 +474,20 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="a3121eb43ecd841fc4db693b5d375671e" name="a3121eb43ecd841fc4db693b5d375671e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3121eb43ecd841fc4db693b5d375671e">&#9670;&nbsp;</a></span>updateRequirements()</h2>
+<a id="a3b9dd8fddaea24b472c04d491275cfc1" name="a3b9dd8fddaea24b472c04d491275cfc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b9dd8fddaea24b472c04d491275cfc1">&#9670;&nbsp;</a></span>updateRequirements()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.updateRequirements </td>
+          <td class="memname">void <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.updateRequirements </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_player.html">AbstractPlayer</a>&lt;?&gt;&#160;</td>
           <td class="paramname"><em>player</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Updates the requirements required for a given player to execute a command. </p>
@@ -613,28 +500,20 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 
 </div>
 </div>
-<a id="a1e7d67f21471285883d28642927e1831" name="a1e7d67f21471285883d28642927e1831"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e7d67f21471285883d28642927e1831">&#9670;&nbsp;</a></span>wrapCommandSender()</h2>
+<a id="ad9997cc9f13b40d22bc6ed4154f836fd" name="ad9997cc9f13b40d22bc6ed4154f836fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9997cc9f13b40d22bc6ed4154f836fd">&#9670;&nbsp;</a></span>wrapCommandSender()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.wrapCommandSender </td>
+          <td class="memname"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html">AbstractCommandSender</a>&lt;? extends CommandSender &gt; <a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">dev.jorel.commandapi.CommandAPIPlatform</a>&lt; <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html">Argument</a>, CommandSender, Source &gt;.wrapCommandSender </td>
           <td>(</td>
           <td class="paramtype">CommandSender&#160;</td>
           <td class="paramname"><em>sender</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Wraps a CommandSender in an AbstractCommandSender class, the inverse operation to <code><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_abstract_command_sender.html#afb2aa156f8b6467550219de3ae01248d">AbstractCommandSender#getSource()</a></code>. </p>
@@ -655,7 +534,7 @@ abstract <a class="el" href="classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_ar
 			<ul>
 				<li class="navelem"><b>dev</b></li><li class="navelem"><b>jorel</b></li><li class="navelem"><b>commandapi</b></li><li class="navelem"><a class="el" href="interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html">CommandAPIPlatform</a></li>
 				<li class="footer">
-					Generated on Wed Apr 2 2025 22:40:29 for CommandAPI 9.7.0 using <a href="http://www.doxygen.org/index.html">Doxygen</a> 1.9.3.
+					Generated on Tue Dec 16 2025 12:46:48 for CommandAPI 11.1.0 using <a href="http://www.doxygen.org/index.html">Doxygen</a> 1.9.3.
 					Flat theme modified from <a href="https://github.com/kcwongjoe/doxygen_theme_flat_design" target="_new">kcwongjoe/doxygen_theme_flat_design</a>. MIT License.
 				</li>
 			</ul>
