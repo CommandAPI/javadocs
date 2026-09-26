@@ -1,6 +1,8 @@
 var classdev_1_1jorel_1_1commandapi_1_1_executable_command =
 [
+    [ "clearExecutors", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a9f6e85ce9018619d02814b9e0db86e3a", null ],
     [ "getAliases", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#ac286a06600391a9d794a7512e0c9a58e", null ],
+    [ "getExecutor", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a9b832fb173c83dca863be802b89f2f4f", null ],
     [ "getFullDescription", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a6e4b38646d09f346568a77cc3fd5a4c3", null ],
     [ "getName", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#af6c03ba09615df46a946c8b915976dd1", null ],
     [ "getPermission", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a2758bd91ff8f94fbfe56811c8a945253", null ],
@@ -12,6 +14,7 @@ var classdev_1_1jorel_1_1commandapi_1_1_executable_command =
     [ "register", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#ac4ff3e3c8d5bacc9c07ffb2822d5a599", null ],
     [ "register", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a19878e7d47c58dfc7fe8a6e8256df5d9", null ],
     [ "setAliases", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#af0c88f393d0ed68227b6215797353c4f", null ],
+    [ "setExecutor", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#ac45fba522c3afcca5b68e979ddac5ba0", null ],
     [ "setPermission", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#acbc79c411bcaffec2bb7cc7cf744c111", null ],
     [ "setRequirements", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#ab76a3eac7863346ff906942057844c57", null ],
     [ "withAliases", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#acaa0bea48daab3496827476521b1a81b", null ],
@@ -24,5 +27,6 @@ var classdev_1_1jorel_1_1commandapi_1_1_executable_command =
     [ "withRequirement", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a421bd3fe97bc8b33cbcb4e29c71ed073", null ],
     [ "withShortDescription", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a13f6917a6e9e87616cd23b3484976ef1", null ],
     [ "withUsage", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a46f0ed3e54da5a65a8e3400fb831bb5f", null ],
+    [ "executor", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a4be16c95900f45da0043aa87321fca5e", null ],
     [ "meta", "classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a1ab64ca031a46ffaac2b4e60e668a7d3", null ]
 ];

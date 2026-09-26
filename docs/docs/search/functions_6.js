@@ -2,7 +2,7 @@ var searchData=
 [
   ['failwithmessage_0',['failWithMessage',['../classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#ac65bdae09efea47d7181803d254e4c49',1,'dev::jorel::commandapi::CommandAPI']]],
   ['failwithstring_1',['failWithString',['../classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#a72723e2ed5d0356f6efefa46d70246b4',1,'dev::jorel::commandapi::CommandAPI']]],
-  ['fallbacktolatestnms_2',['fallbackToLatestNMS',['../classdev_1_1jorel_1_1commandapi_1_1_internal_bukkit_config.html#a52a7f95fc3f736b6d447514c02c4401a',1,'dev::jorel::commandapi::InternalBukkitConfig']]],
+  ['fallbacktolatestnms_2',['fallbackToLatestNMS',['../classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i_bukkit_config.html#afa8d55991b708076d1323be73d0a02ec',1,'dev.jorel.commandapi.CommandAPIBukkitConfig.fallbackToLatestNMS()'],['../classdev_1_1jorel_1_1commandapi_1_1_internal_bukkit_config.html#a52a7f95fc3f736b6d447514c02c4401a',1,'dev.jorel.commandapi.InternalBukkitConfig.fallbackToLatestNMS()']]],
   ['findambiguities_3',['findAmbiguities',['../classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html#aa64998a8541e504e628d7003f7fe5cfb',1,'com.mojang.brigadier.CommandDispatcher.findAmbiguities()'],['../classcom_1_1mojang_1_1brigadier_1_1tree_1_1_command_node.html#ac4a6f9c8b501465217bd352d653d7539',1,'com.mojang.brigadier.tree.CommandNode.findAmbiguities()']]],
   ['findnode_4',['findNode',['../classcom_1_1mojang_1_1brigadier_1_1_command_dispatcher.html#acab25d2fd16993b89d90b0882e19389c',1,'com::mojang::brigadier::CommandDispatcher']]],
   ['findsuggestioncontext_5',['findSuggestionContext',['../classcom_1_1mojang_1_1brigadier_1_1context_1_1_command_context_builder.html#a34363d9d7f755cf542713be3a66119cc',1,'com::mojang::brigadier::context::CommandContextBuilder']]],

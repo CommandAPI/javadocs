@@ -1,5 +1,6 @@
 var interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform =
 [
+    [ "checkRegistrationStatus", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a8c8291f6c1ce500e306ee2b636a12db2", null ],
     [ "createDispatcherFile", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aedb6ec22de459c350d016688791372d2", null ],
     [ "getBrigadierDispatcher", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a2b57383cd635a8c440a3724b73cedfc2", null ],
     [ "getBrigadierSourceFromCommandSender", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a99308c200536a365a06e2da402501446", null ],
@@ -12,7 +13,6 @@ var interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform =
     [ "postCommandRegistration", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#af3400a87a6eaea2226aea2d45b43f8d4", null ],
     [ "preCommandRegistration", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#aef081b89fd0e0453d6fe868952a167f4", null ],
     [ "registerCommandNode", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#ae5ec4bea488416f5b2c145fc80f3b211", null ],
-    [ "reloadDataPacks", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a6490f25b5d88f264979bcd8aa8966b0b", null ],
     [ "setupMessenger", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a315c9217c1f6af0fba701517629389c0", null ],
     [ "unregister", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a78fe2b99b479cdef4a19872ac855580c", null ],
     [ "updateRequirements", "interfacedev_1_1jorel_1_1commandapi_1_1_command_a_p_i_platform.html#a3b9dd8fddaea24b472c04d491275cfc1", null ],

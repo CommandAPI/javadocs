@@ -38,6 +38,5 @@ var interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s =
     [ "_ArgumentVec3", "interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s.html#a8f4f10614673b73fb2efdeb645da52bf", null ],
     [ "compatibleVersions", "interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s.html#a496e1bb1ce16d141e9200cde895f8021", null ],
     [ "getSimpleCommandMap", "interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s.html#af38561d456f27ae3b16efd0a17e7ba72", null ],
-    [ "getSuggestionProvider", "interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s.html#af60a01d239fe326d586c77174f7a4806", null ],
-    [ "reloadDataPacks", "interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s.html#aacaa37985c089d499b101a946a4f983b", null ]
+    [ "getSuggestionProvider", "interfacedev_1_1jorel_1_1commandapi_1_1nms_1_1_n_m_s.html#af60a01d239fe326d586c77174f7a4806", null ]
 ];

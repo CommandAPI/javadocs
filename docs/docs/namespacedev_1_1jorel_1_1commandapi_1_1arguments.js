@@ -1,13 +1,5 @@
 var namespacedev_1_1jorel_1_1commandapi_1_1arguments =
 [
-    [ "parser", null, [
-      [ "function", null, [
-        [ "ThrowingBiFunction", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1parser_1_1function_1_1_throwing_bi_function.html", null ],
-        [ "ThrowingFunctionParser", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1parser_1_1function_1_1_throwing_function_parser.html", null ],
-        [ "ThrowingSupplier", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1parser_1_1function_1_1_throwing_supplier.html", null ],
-        [ "ThrowingSupplyingParser", "interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1parser_1_1function_1_1_throwing_supplying_parser.html", null ]
-      ] ]
-    ] ],
     [ "AbstractArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_abstract_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_abstract_argument" ],
     [ "AdvancementArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_advancement_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_advancement_argument" ],
     [ "AngleArgument", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_angle_argument.html", "classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_angle_argument" ],

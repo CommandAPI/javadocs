@@ -25,9 +25,10 @@
 var NAVTREE =
 [
   [ "CommandAPI", "index.html", [
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Packages", "namespaces.html", [
-      [ "Packages", "namespaces.html", "namespaces_dup" ],
-      [ "Package Functions", "namespacemembers.html", [
+      [ "Package List", "namespaces.html", "namespaces_dup" ],
+      [ "Package Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ]
       ] ]
@@ -48,23 +49,26 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classcom_1_1mojang_1_1brigadier_1_1builder_1_1_literal_argument_builder.html#a97638c8028dd11359f8a8d4b426857fd",
-"classcom_1_1mojang_1_1brigadier_1_1suggestion_1_1_suggestion.html#a13506a971d067ec70de55c6c16dd2d7a",
-"classdev_1_1jorel_1_1commandapi_1_1_abstract_command_a_p_i_command.html#a2758bd91ff8f94fbfe56811c8a945253",
-"classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i.html#a386654d2b9a36d863263c6def5430845",
-"classdev_1_1jorel_1_1commandapi_1_1_command_tree.html#aaccd66e439abf95673a87f6530889dac",
-"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_abstract_argument.html#ac09c6db2e268f0dfad26f51a5dcc5fa7",
-"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_entity_selector_argument_1_1_one_entity.html",
-"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_particle_argument.html",
-"classdev_1_1jorel_1_1commandapi_1_1commandsenders_1_1_bukkit_proxied_command_sender.html",
-"classdev_1_1jorel_1_1commandapi_1_1wrappers_1_1_location2_d.html#ad925d782c4d22901a60257b00eda483c",
-"enumdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_protocol.html",
-"interfacedev_1_1jorel_1_1commandapi_1_1_bukkit_executable.html#ad70b6ec3cc3f173ebb5f3cba8e6a5bf7",
-"interfacedev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_suggestions.html",
-"interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_console_command_executor.html#a817f94d107c7d7ef1d234828a54a1e52",
-"interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_proxy_execution_info.html#aa2fb73d7b0cada44281ac167d78132f9",
-""
+"classcom_1_1mojang_1_1brigadier_1_1suggestion_1_1_suggestion.html#aaa647175743d13c84390a49d6b2ef49c",
+"classdev_1_1jorel_1_1commandapi_1_1_abstract_command_tree.html#a7c89da192ac33fef06157e8b28f51ed7",
+"classdev_1_1jorel_1_1commandapi_1_1_command_a_p_i_command.html#a7bfc016e3b58741ef9fe975021e45f21",
+"classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#ac563466eca1f30b8014b91a6e8862459",
+"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument.html#a5cc74bb24cba2721e366bf6cea6daeef",
+"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_item_stack_argument.html#a7d5276ec17bf56941e95365f86ab59c8",
+"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_safe_overrideable_argument.html#a4a3b6095f9d2fad325ced4a10082404a",
+"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_score_holder_argument_1_1_single.html#afe07d9fe9215ca839c7affe4160b9d65",
+"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_sound_argument.html#ac8be35a627ef25dfc0b7542ec4a2620a",
+"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_team_argument.html#a83507c6a326b24c55d8afc1b8f3e82e8",
+"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_time_argument.html#a71d3ddced6c3f5f65cdf1a03ef8259cf",
+"classdev_1_1jorel_1_1commandapi_1_1arguments_1_1_world_argument.html#a2697579131305312c74f1c3d46fa56f5",
+"classdev_1_1jorel_1_1commandapi_1_1network_1_1_friendly_byte_buffer.html#af397605b989f28367f9c96dfbf4f024d",
+"enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ace655a09bccdf8b082e1f461315dce75",
+"interfacedev_1_1jorel_1_1commandapi_1_1_bukkit_executable.html#a86d0cd04c24a15a5fc582061daf3d794",
+"interfacedev_1_1jorel_1_1commandapi_1_1annotations_1_1arguments_1_1_a_score_holder_argument.html",
+"interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_console_resulting_command_executor.html",
+"interfacedev_1_1jorel_1_1commandapi_1_1executors_1_1_proxy_resulting_execution_info.html#a63f04a2a35a2db1e0f5caf541b2c2e4d"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+const SYNCONMSG = 'click to disable panel synchronization';
+const SYNCOFFMSG = 'click to enable panel synchronization';
+const LISTOFALLMEMBERS = 'List of all members';

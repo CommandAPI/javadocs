@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['namespaced_5fkey_0',['NAMESPACED_KEY',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ace655a09bccdf8b082e1f461315dce75',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
-  ['native_1',['NATIVE',['../enumdev_1_1jorel_1_1commandapi_1_1executors_1_1_executor_type.html#a76c88852963ead0914c7e942664a0a72',1,'dev::jorel::commandapi::executors::ExecutorType']]],
-  ['nbt_5fcompound_2',['NBT_COMPOUND',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ae8aed802df31abe3b1d38e3e5e753dca',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
-  ['none_3',['NONE',['../classdev_1_1jorel_1_1commandapi_1_1_command_permission.html#a8bc7dd46e17d34d9a5a45a32276b10e7',1,'dev::jorel::commandapi::CommandPermission']]]
+  ['objective_0',['OBJECTIVE',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a0f0dde9643a62fab9bea9483cb09973a',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['objective_5fcriteria_1',['OBJECTIVE_CRITERIA',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a88c23c908b311e33a06fae6edfb90e97',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['op_2',['OP',['../enumdev_1_1jorel_1_1commandapi_1_1_command_permission_1_1_permission_node.html#a3d886a0e1931c8a3513569467f1b4272',1,'dev.jorel.commandapi.CommandPermission.PermissionNode.OP'],['../classdev_1_1jorel_1_1commandapi_1_1_command_permission.html#a481a37fbb1386d5070664c61f9f4dd5a',1,'dev.jorel.commandapi.CommandPermission.OP']]]
 ];

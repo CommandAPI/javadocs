@@ -1,6 +1,22 @@
 var searchData=
 [
-  ['objective_0',['OBJECTIVE',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a0f0dde9643a62fab9bea9483cb09973a',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
-  ['objective_5fcriteria_1',['OBJECTIVE_CRITERIA',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a88c23c908b311e33a06fae6edfb90e97',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
-  ['op_2',['OP',['../classdev_1_1jorel_1_1commandapi_1_1_command_permission.html#a481a37fbb1386d5070664c61f9f4dd5a',1,'dev::jorel::commandapi::CommandPermission']]]
+  ['paper_0',['PAPER',['../enumdev_1_1jorel_1_1commandapi_1_1_platform.html#a3f2fe2e97f5cac8be4f2f73655103ccf',1,'dev::jorel::commandapi::Platform']]],
+  ['particle_1',['PARTICLE',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a72c70172767e42477678454eda33e7cb',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['play_2',['PLAY',['../enumdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_protocol.html#a636b67f74949b7c158d38bc1513094d1',1,'dev::jorel::commandapi::network::CommandAPIProtocol']]],
+  ['player_3',['PLAYER',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ac5739032037514f0aa89935f8d9dd2cc',1,'dev.jorel.commandapi.arguments.CommandAPIArgumentType.PLAYER'],['../enumdev_1_1jorel_1_1commandapi_1_1executors_1_1_executor_type.html#a52ebde1677f2c3a109bc1aa2407ca1b3',1,'dev.jorel.commandapi.executors.ExecutorType.PLAYER']]],
+  ['potion_5feffect_4',['POTION_EFFECT',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ac83b55db69689cdc2bf9d527394e46be',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['potion_5feffect_5fnamespacedkey_5',['POTION_EFFECT_NAMESPACEDKEY',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type.html#a2fd35427a30e1594b67acf54c5eca245',1,'dev::jorel::commandapi::arguments::ArgumentSubType']]],
+  ['potion_5feffect_5fpotion_5feffect_6',['POTION_EFFECT_POTION_EFFECT',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type.html#a9b8cd7f8dae4de70395504ec6fd3e471',1,'dev::jorel::commandapi::arguments::ArgumentSubType']]],
+  ['potion_5feffects_7',['POTION_EFFECTS',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_suggestion_providers.html#ab1afa35116e999e115d3b13fce75b3bd',1,'dev::jorel::commandapi::arguments::SuggestionProviders']]],
+  ['precise_5fposition_8',['PRECISE_POSITION',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_location_type.html#ab0a982eafd756b64ffd940da6b306a4e',1,'dev::jorel::commandapi::arguments::LocationType']]],
+  ['primitive_5fboolean_9',['PRIMITIVE_BOOLEAN',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#acd575913daf86a42a8aa1645fecf729f',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['primitive_5fdouble_10',['PRIMITIVE_DOUBLE',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ac567363a95c9d16c2697b69f56669445',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['primitive_5ffloat_11',['PRIMITIVE_FLOAT',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a676b3ce7500622cc97b35e8ad66de527',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['primitive_5fgreedy_5fstring_12',['PRIMITIVE_GREEDY_STRING',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ab59cbf366be3a1758795d6bfc4531880',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['primitive_5finteger_13',['PRIMITIVE_INTEGER',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a6606127d3d8bcc3bf6b4b6f8032c8364',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['primitive_5flong_14',['PRIMITIVE_LONG',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a3c32ecd1286c4e4a4121d8c9caad1732',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['primitive_5fstring_15',['PRIMITIVE_STRING',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#aa74124ffeb8fe709d75a6e1f381356d1',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['primitive_5ftext_16',['PRIMITIVE_TEXT',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#ad5aed1fa4d01cbe40a9077e2868d3e05',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['protocol_5fversion_17',['PROTOCOL_VERSION',['../enumdev_1_1jorel_1_1commandapi_1_1network_1_1_command_a_p_i_protocol.html#abfe976ef56a910091ea97f117b57fce5',1,'dev::jorel::commandapi::network::CommandAPIProtocol']]],
+  ['proxy_18',['PROXY',['../enumdev_1_1jorel_1_1commandapi_1_1executors_1_1_executor_type.html#a3716b4662b5fdb66c4cd565a59ec7cba',1,'dev::jorel::commandapi::executors::ExecutorType']]]
 ];

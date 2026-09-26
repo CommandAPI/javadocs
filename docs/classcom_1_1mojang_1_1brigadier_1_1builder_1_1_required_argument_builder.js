@@ -14,9 +14,7 @@ var classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder =
     [ "getType", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#a3a3d5858448044e8cdf6fccece84c2b8", null ],
     [ "isFork", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#aac2f89eb2bc194a8b0478e21040de678", null ],
     [ "redirect", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#a7ba040b58a07afbc8a7f465caf5ce4c2", null ],
-    [ "redirect", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#aad667d53ad32c4005baf2242cd61603b", null ],
     [ "requires", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#a86177ff5d63495d60811d4ab6bdcf5d1", null ],
     [ "suggests", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#ac62ae82b5df5076131dc5fac3f70326d", null ],
-    [ "then", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#a0ebf08f6e9012d4571566e57a3b16eb4", null ],
-    [ "then", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#a0eed684a3f2962ec3fde93f45bc02589", null ]
+    [ "then", "classcom_1_1mojang_1_1brigadier_1_1builder_1_1_required_argument_builder.html#a0ebf08f6e9012d4571566e57a3b16eb4", null ]
 ];

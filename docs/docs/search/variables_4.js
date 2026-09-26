@@ -10,5 +10,6 @@ var searchData=
   ['entityselector_5fmany_5fplayers_7',['ENTITYSELECTOR_MANY_PLAYERS',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type.html#a425361f6c85fbf0eb410fdfb883b8a25',1,'dev::jorel::commandapi::arguments::ArgumentSubType']]],
   ['entityselector_5fone_5fentity_8',['ENTITYSELECTOR_ONE_ENTITY',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type.html#a580f75e4cfdcde1db7449befa2b00551',1,'dev::jorel::commandapi::arguments::ArgumentSubType']]],
   ['entityselector_5fone_5fplayer_9',['ENTITYSELECTOR_ONE_PLAYER',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_argument_sub_type.html#a13943c7b3a3a1804ba45453849b3ebe2',1,'dev::jorel::commandapi::arguments::ArgumentSubType']]],
-  ['environment_10',['ENVIRONMENT',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a11a15d4f5e89680b7951159323c3b730',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]]
+  ['environment_10',['ENVIRONMENT',['../enumdev_1_1jorel_1_1commandapi_1_1arguments_1_1_command_a_p_i_argument_type.html#a11a15d4f5e89680b7951159323c3b730',1,'dev::jorel::commandapi::arguments::CommandAPIArgumentType']]],
+  ['executor_11',['executor',['../classdev_1_1jorel_1_1commandapi_1_1_executable_command.html#a4be16c95900f45da0043aa87321fca5e',1,'dev::jorel::commandapi::ExecutableCommand']]]
 ];
